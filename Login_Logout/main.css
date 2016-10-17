@@ -1,0 +1,88 @@
+.loginMainForm {
+	border:1px solid gray;
+	overflow:hidden
+}
+.loginMainForm input[type=text],.loginMainForm input[type=password] {
+	font-family:verdana;
+	font-size:11px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border:1px solid #999;
+	width:141px;
+	margin:5px 5px 0px 5px;
+	top:5px;
+	padding:6px
+}
+.loginMainForm input[type=password] {
+	width:142px
+}
+.loginMainForm #remember-me,.loginMainForm .submit {
+	margin:4px
+}
+.loginMainForm .submit input[type=button] {
+	margin:1px
+}
+.loginMainForm .recoverPass {
+	margin-left:1em
+}
+.loginMainForm .loginButt {
+	float:none
+}
+.loginMainForm .loginButt *,.loginButt .butt * {
+	vertical-align:middle
+}
+.signInMain{
+    margin: 7px 0 12px 0;
+    margin-top: 7px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;	
+}
+.doubleBlock {
+    margin-bottom: 49px;
+}
+.doubleBlock .sections.firstsection:first-child {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.modal-title {
+    color: #4270a2;
+    display: block;
+}
+.group {
+    margin-bottom: 10px;
+    position: relative;
+}
+.control {
+	-moz-box-sizing: border-box;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	height: 34px;
+	line-height: 20px;
+	padding: 6px 12px;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px 2px -1px rgba(0,0,0,0.15);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.checkbox {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submit {
+    margin-top: 34px;
+}
+.signinupbox {
+	float: left
+}

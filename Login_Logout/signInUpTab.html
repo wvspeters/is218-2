@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>reddit: the example of signin, signup</title>
+		<link rel="stylesheet" type="text/css" href="main.css" media="all">
+	</head>
+	<body>
+		<div class="signinupbox">
+			<div class="modal-body">
+				<div id="login">
+					<div class="doubleBlock">
+						<div class="sections firstsection">
+							<h4 class="modal-title">create a new account</h4>
+							<form id="register-form" method="post" action="postlogin.html">
+								<div class="group ">
+									<input id="user_reg" class="control" name="user" maxlength="20" tabindex="1" placeholder="choose a username">
+								</div>
+								<div class="group ">
+									<input id="passwd_reg" class="control" name="passwd" tabindex="1" placeholder="password" type="password">
+									<div class="strength-meter" style="">
+										<div class="strength-meter-fill"></div>
+									</div>
+								</div>
+								<div class="group ">
+									<input id="passwd2_reg" class="control" name="passwd2" tabindex="1" placeholder="verify password" type="password">
+								</div>
+								<div class="group ">
+									<input id="email_reg" class="control" name="email" tabindex="1" placeholder="email" type="text">
+								</div>
+								<div class="checkbox">
+									<input id="rem_reg" name="rem" tabindex="1" type="checkbox">
+									<label for="rem_reg">remember me</label>
+								</div>
+								<div class="checkbox">
+									<input id="newsletter_subscribe" name="newsletter_subscribe" tabindex="1" type="checkbox">
+									<label for="newsletter_subscribe">
+										get the best of reddit emailed to you once a week.
+									</label>
+								</div>
+								<div class="submit">
+									<button type="submit" tabindex="1">sign up</button>
+								</div>
+							</form>
+						</div>
+					<div class="sections">
+						<h4 class="modal-title">log in</h4>
+						<form id="login-form" method="post" action="postlogin.html">
+							<div class="group ">
+								<input id="user_login" class="control" name="user" maxlength="20" tabindex="2" placeholder="username" type="text">
+							</div>
+							<div class="group ">
+								<input id="passwd_login" class="control" name="passwd" tabindex="2" placeholder="password" type="password">
+							</div>
+							<div class="checkbox">
+								<input id="rem_login" name="rem" tabindex="2" type="checkbox">
+								<label for="rem_login">remember me</label>
+								<a href="passwordreset.html">reset password</a>
+							</div>
+							<div>
+								<div class="submit">
+									<button type="submit" tabindex="2">log in</button>
+								</div>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+		 </div>
+	</body>
+</html>
