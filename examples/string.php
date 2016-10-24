@@ -6,8 +6,10 @@
 
 	print_r(explode(" ",$str));
 
-	$str = "<© W3Sçh°°¦§>";
+	$str1 = "<© W3Sçh°°¦§>";
 	echo htmlentities($str);
 
+	$str2 ="This is some &lt;b&gt;bold&lt;/b&gt; text.";
+	echo htmlspecialchars_decode($str);
 
 ?>
