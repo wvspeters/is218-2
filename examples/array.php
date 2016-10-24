@@ -18,4 +18,7 @@
 	$c=array_combine($a, $b);
 	print_r($c);
 
+	$file = fopen("contacts.csv","r");
+	print_r(fgetcsv($file));
+	fclose($file);
 ?>
