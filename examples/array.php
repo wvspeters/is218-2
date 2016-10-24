@@ -26,4 +26,10 @@
 
 	$result=array_intersect($a,$d);
 	print_r($result);
+
+	$im=array('Hi','People','Of','Earth');
+	echo implode(" ",$im);
+	echo explode("Of",$im);
+
+
 ?>
