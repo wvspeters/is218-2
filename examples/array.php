@@ -11,4 +11,10 @@
 	$b=array("test1","test2", "test3");
 	array_pop($b);
 	print_r($b);
+	
+	array_push($b,"test4", "test5");
+	print_r($b);
+
+	$c=array_combine($a, $b);
+	print_r($c);
 ?>
