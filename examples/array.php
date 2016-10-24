@@ -6,5 +6,9 @@
 	function example_funct($value,$key){
 		echo "$key with a value of $value<br>";
 	}
-	array_walk($a, "example_funct")
+	array_walk($a, "example_funct");
+
+	$b=array("test1","test2", "test3");
+	array_pop($b);
+	print_r($b);
 ?>
