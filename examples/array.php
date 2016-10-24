@@ -31,5 +31,5 @@
 	echo implode(" ",$im);
 	echo explode("Of",$im);
 
-
+	print_r(array_chunk($d,1));
 ?>
