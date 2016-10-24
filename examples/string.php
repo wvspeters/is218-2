@@ -4,5 +4,10 @@
 
 	echo count_chars($str,3);
 
-	
+	print_r(explode(" ",$str));
+
+	$str = "<© W3Sçh°°¦§>";
+	echo htmlentities($str);
+
+
 ?>
