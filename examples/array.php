@@ -35,5 +35,7 @@
 
 	print_r(array_slice($a,2));
 
+	echo array_sum($c);
+
 
 ?>
