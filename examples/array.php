@@ -32,4 +32,8 @@
 	echo explode("Of",$im);
 
 	print_r(array_chunk($d,1));
+
+	print_r(array_slice($a,2));
+
+
 ?>
