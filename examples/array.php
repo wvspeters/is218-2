@@ -21,4 +21,9 @@
 	$file = fopen("contacts.csv","r");
 	print_r(fgetcsv($file));
 	fclose($file);
+
+	$d=array("Fruit2"=>"Apple","Vegtables2"=>"Broccoli");
+
+	$result=array_intersect($a,$d);
+	print_r($result);
 ?>
