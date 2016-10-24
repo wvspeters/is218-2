@@ -37,5 +37,5 @@
 
 	echo array_sum($c);
 
-
+	print_r(array_diff($a,$b));
 ?>
