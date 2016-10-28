@@ -15,5 +15,8 @@
 	$arr=array('Hello','World!','Beautiful','Day!');
 	echo implode(" ",$arr);
 
+	$str3="Hello";
+	echo md5($str3);
+
 
 ?>
