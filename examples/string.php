@@ -18,5 +18,7 @@
 	$str3="Hello";
 	echo md5($str3);
 
+	array str_getcsv(string $input[,string $delimiter = ','[,string $enclosure = '"'[,string
+	$escape = '\\']]]);
 
 ?>
