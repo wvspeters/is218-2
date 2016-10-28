@@ -28,4 +28,5 @@
 
 	echo stripos("PHP sucks, PHP is the worst!","PHP");
 
+	echo strlen("Hello");
 ?>
