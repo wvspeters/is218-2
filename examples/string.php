@@ -20,5 +20,9 @@
 
 	array str_getcsv(string $input[,string $delimiter = ','[,string $enclosure = '"'[,string
 	$escape = '\\']]]);
+	
+	echo $str3 . "<br>";
+	echo rtrim($str3,"World!");
+
 
 ?>
