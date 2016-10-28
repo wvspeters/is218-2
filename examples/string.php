@@ -26,5 +26,6 @@
 
 	echo strip_tags("Hello <br>world!</b>");
 
+	echo stripos("PHP sucks, PHP is the worst!","PHP");
 
 ?>
