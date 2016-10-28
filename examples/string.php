@@ -24,5 +24,7 @@
 	echo $str3 . "<br>";
 	echo rtrim($str3,"World!");
 
+	echo strip_tags("Hello <br>world!</b>");
+
 
 ?>
