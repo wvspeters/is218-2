@@ -18,8 +18,8 @@
 	$str3="Hello";
 	echo md5($str3);
 
-	array str_getcsv(string $input[,string $delimiter = ','[,string $enclosure = '"'[,string
-	$escape = '\\']]]);
+	$input='"FirstName", test, str_getcsv, "here"';
+	array str_getcsv(string $input[, string $delimiter = ','[, string $enclosure = '"'[, string $escape = '\\']]]);
 	
 	echo $str3 . "<br>";
 	echo rtrim($str3,"World!");
